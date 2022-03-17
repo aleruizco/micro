@@ -1,10 +1,10 @@
 public class CountCharacter    
 {    
     public static void main(String[] args) {    
-        String string = "The best of both worlds";    
+        String string = "lo mejor de dos mundos";    
         int count = 0;    
             
-        //Counts each character except space    
+        //Cuenta cada caracter con excepcion del espacio    
         for(int i = 0; i < string.length(); i++) {    
             if(string.charAt(i) != ' ')    
                 count++;    
